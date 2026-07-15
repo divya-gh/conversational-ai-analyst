@@ -1,0 +1,43 @@
+Step 1 — Create and Activate your venv
+In your terminal:
+
+bash
+```
+python -m venv venv(file_name)
+source venv/bin/activate     # mac/linux
+venv\Scripts\activate        # windows
+```
+Make sure your prompt shows (venv).
+
+Step 2 — Install ipykernel inside your venv
+Run:
+
+bash
+```
+pip install ipykernel
+```
+This lets your venv appear as a selectable kernel in Jupyter.
+
+Step 3 — Add your venv as a Jupyter kernel
+Run:
+
+bash
+```
+python -m ipykernel install --user --name=caianalyst --display-name "Conversational AI Analyst"
+```
+This creates a new kernel called Conversational AI Analyst.
+
+Step 4 — Launch Jupyter Notebook and Switch the notebook kernel
+Run:
+
+bash
+```
+jupyter notebook
+```
+Open your notebook: 01_exploration.ipynb
+
+Go to Kernel → Change Kernel
+
+Select: Conversational AI Analyst
+
+Now your notebook is using the same environment where pandas, numpy, spacy, etc. are installed.

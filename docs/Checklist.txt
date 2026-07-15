@@ -1,0 +1,27 @@
+Step1 :
+✔ Loaded dataset
+✔ Inspected columns
+✔ Understood structure
+✔ Understood reply relationships
+✔ Created small working sample
+
+Each row is a tweet. inbound tells me if it’s a customer or the company. in_reply_to_tweet_id helps build conversation threads.
+
+Step2:
+Created 02_cleaning_structuring.ipynb
+✔ cleaned text into text_clean
+✔ added is_user and is_company
+✔ created a basic conversation_id
+✔ saved twcs_clean.csv
+
+I cleaned tweets by removing URLs, mentions, hashtags, and emojis, and created a text_clean column plus a basic conversation_id.
+
+Step3:
+✔ created text_lemma
+✔ created an intent taxonomy
+✔ simulated intent labels
+✔ simulated confidence scores
+✔ defined fallback logic
+✔ saved twcs_intent_simulated.csv
+
+I created a simple intent taxonomy, simulated intent labels and confidence scores, and defined fallback as unknown or low confidence predictions.
