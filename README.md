@@ -1,6 +1,3 @@
-# conversational-ai-analyst
-conversational data wrangling, intent‑level analytics, and data storytelling — using Python + NLU basics + dashboards.
-
 # Conversational AI Analyst — Customer Support Insights Dashboard  
 A data-driven conversational analytics project built to simulate how Conversational AI teams analyze customer support interactions, identify taxonomy gaps, evaluate fallback behavior, and generate actionable business insights.
 
@@ -23,15 +20,10 @@ It includes:
 The goal is to demonstrate the end-to-end workflow of a **Conversational AI Analyst**, including data cleaning, taxonomy evaluation, conversational insights, and dashboard storytelling.
 
 ---
-
 ## 🖼️ Dashboard Preview
-
-> *(Replace the placeholder below with an actual screenshot once you upload it to your repo)*
-
 ![Dashboard Preview](assets/dashboard_preview.png)
 
 ---
-
 ## 🧠 Key Features
 
 ### **1. Intent Distribution**
