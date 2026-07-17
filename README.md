@@ -81,6 +81,7 @@ conversational-ai-analyst/
 
 ## 🚀 Installation & Local Setup
 You can run the dashboard locally using the steps below.
+```
 
 1. Clone the repository
 bash
