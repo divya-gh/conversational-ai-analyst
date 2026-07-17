@@ -86,3 +86,79 @@ conversational-ai-analyst/
 │
 ├── requirements.txt          # Dependencies for Streamlit Cloud
 └── README.md                 # Project documentation
+
+## 🚀 Installation & Local Setup
+You can run the dashboard locally using the steps below.
+
+1. Clone the repository
+bash
+```
+git clone https://github.com/<your-username>/conversational-ai-analyst.git
+cd conversational-ai-analyst
+```
+2. Create a virtual environment (recommended)
+bash
+```
+python3 -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows\
+```
+3. Install dependencies
+bash
+```
+pip install -r requirements.txt\
+```
+4. Run the Streamlit app
+bash
+```
+streamlit run app/dashboard.py\
+```
+Your dashboard will open at:
+Code
+```
+http://localhost:8501
+```
+
+## 📊 Data Source
+This project uses the Twitter Customer Support (TWCS) dataset from Kaggle, which contains real customer support conversations between users and brands.
+
+The dataset was cleaned, normalized, and enriched with simulated intent labels to mimic a real Conversational AI workflow.
+
+## 🧩 Insights & Taxonomy Analysis
+The full analysis is available in 📄 reports/insights.md
+
+**It includes:**
+- Missing intents
+- Overlapping intents
+- Recommendations
+- Business insights for a customer/operstions support 
+
+This is the core deliverable for Conversational AI Analyst roles.
+
+## 🛠️ Tech Stack
+Python 3.10+  
+Streamlit — interactive dashboard  
+Pandas / NumPy — data processing  
+Matplotlib / Seaborn — visualizations  
+Jupyter Notebooks — analysis workflow
+
+## 🎯 Purpose of This Project
+This project demonstrates the real responsibilities of a Conversational AI Analyst, including:
+- Understanding customer intent patterns
+- Evaluating fallback & low-confidence behavior
+- Identifying taxonomy gaps
+- Improving conversational routing
+- Communicating insights through dashboards
+
+**It is designed as a portfolio piece for roles in:**
+Conversational AI, NLP Analytics, Customer Experience Analytics, 
+AI Operations, Support Automation
+
+## 🤝 Contact
+If you'd like to collaborate or discuss Conversational AI projects:  
+
+DM me @ Divya Shetty  
+**LinkedIn:** https://www.linkedin.com/in/divya-shetty-k/ 
+
+## ⭐ Acknowledgements
+Special thanks to the creators of the TWCS dataset and the pen-source tools that made this project possible.
